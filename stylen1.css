@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+     
+    display: flex;
+
+    
+}
+
+
+
+#left{
+    width: 50%;
+    height: 100%;
+    position: relative;
+   
+    
+}
+#left img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  
+    
+}
+#left button{
+     
+    padding: 12px 22px;
+    position: absolute;
+    background-color: aqua;
+    color: blue;
+    bottom: 35%;
+    border-radius: 20px;
+    left: 45%;
+    border: none;
+    font-size: 30px;
+    
+    
+}
+#left h1{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+     
+    font-size: 30px;
+    color: aqua;
+ }
+ #left h2{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    color: white;
+    font-size: 30px;
+ }
+ #left h3{
+    position: absolute;
+    top: 51%;
+    left: 42%;
+    color: white;
+    font-size: 15px;
+ }
+ 
+ 
+#right{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+#right img{
+    height: 100%;
+    width: 100%;
+     
+}
+#right h1{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+     
+    font-size: 30px;
+    color: aqua;
+ }
+ #right button{
+     
+    padding: 12px 22px;
+    position: absolute;
+    background-color: aqua;
+    color: blue;
+    bottom: 35%;
+    border-radius: 20px;
+    left: 45%;
+    border: none;
+    font-size: 30px;
+    
+    
+}
+#right h2{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    color: white;
+    font-size: 30px;
+ }
+ #right h3{
+    position: absolute;
+    top: 51%;
+    left: 42%;
+    color: white;
+    font-size: 15px;
+ }
+ 
+ 
